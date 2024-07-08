@@ -1,0 +1,50 @@
+:root {
+    --linear-gradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --red: hsl(0, 100%, 66%);
+  
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-violet: hsl(270, 3%, 87%);
+    --dark-grayish-violet: hsl(279, 6%, 55%);
+    --very-dark-violet: hsl(278, 68%, 11%);
+  }
+
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 382px;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+}
+.feedback-title{
+    color: var(--very-dark-violet);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .52rem;
+    margin-top: 3.2rem;
+}
+.feedback-parag{
+    font-size: 1.6rem;
+    color: var(--dark-grayish-violet);
+    font-weight: 400;
+    margin-top: 1.2rem;
+
+}
+.form-btn{
+    width: 100%;
+  height: 53px;
+  border: none;
+  background-color: var(--very-dark-violet);
+  color: var(--white);
+  border-radius: 0.64rem;
+  margin-top: 4.05rem;
+  font-size: 1.76rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
